@@ -49,13 +49,13 @@ pipeline {
         }
 
         stage('Run Container') {
-            steps {
-                sh '''
-                docker stop bookmyshow-container || true
-                docker rm bookmyshow-container || true
-                docker run -d -p 3000:3000 --name bookmyshow-container bookmyshow-app
-                '''
-            }
-        }
+    steps {
+        sh '''
+        docker stop bookmyshow-container || true
+        docker rm bookmyshow-container || true
+        docker run -d -p 3000:80 --name bookmyshow-container bookmyshow-app
+        '''
+    }
+}
     }
 }
