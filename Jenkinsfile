@@ -48,6 +48,12 @@ pipeline {
             }
         }
 
+        stage('Trivy Scan') {
+    steps {
+        sh 'trivy image bookmyshow-app'
+    }
+}
+
         stage('Run Container') {
     steps {
         sh '''
