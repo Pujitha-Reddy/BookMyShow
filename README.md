@@ -29,6 +29,16 @@ The goal of this project was to build a practical DevOps pipeline covering:
 - Kubernetes deployment
 - monitoring
 ---
+## ⭐ Key Highlights
+
+- End-to-end CI/CD pipeline using Jenkins  
+- Integrated SonarQube for code quality enforcement  
+- Implemented Trivy for container security scanning  
+- Deployed containerized app on AWS EKS  
+- Exposed application via Kubernetes LoadBalancer  
+- Implemented monitoring using Grafana  
+- Handled real-world issues like CNI limits and pod scheduling  
+---
 ## 🌐 Application & Tool Access URLs
 
 The following endpoints were used during the project deployment:
