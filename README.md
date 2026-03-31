@@ -58,10 +58,21 @@ The following endpoints were used during the project deployment:
   http://a0a3cb7b702174a0caefab224ca76e5a-1965170611.us-east-1.elb.amazonaws.com  
 
 ---
-
 ### 📊 Monitoring (Grafana)
+
 - **Grafana Dashboard:**  
-  *(Exposed via LoadBalancer during deployment)*
+  http://a914d2cd054f94e90b585cf9fff0d15d-1554789301.us-east-1.elb.amazonaws.com
+
+- **Sample Dashboard View:**  
+  http://a914d2cd054f94e90b585cf9fff0d15d-1554789301.us-east-1.elb.amazonaws.com/?orgId=1&from=now-6h&to=now&timezone=browser
+
+- Grafana was deployed using Helm and exposed via AWS LoadBalancer  
+- Used for visualizing Kubernetes cluster metrics  
+---
+
+### 🔐 Grafana Access
+- **Username:** `admin`  
+- **Password:** Retrieved from Kubernetes secret  
   
 ---
 
