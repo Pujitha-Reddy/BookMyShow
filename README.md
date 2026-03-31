@@ -74,18 +74,6 @@ The following endpoints were used during the project deployment:
 - **Password:** Retrieved from Kubernetes secret  
   
 ---
-## 📸 Application Screenshots
-
-<p align="center">
-  <img src="./screenshots/home.png" width="45%" />
-  <img src="./screenshots/booking1.png" width="45%" />
-</p>
-
-<p align="center">
-  <img src="./screenshots/timings1.png" width="45%" />
-  <img src="./screenshots/confirmation.png" width="45%" />
-</p>
----
 
 ## 🧱 Architecture Diagram
 
@@ -361,6 +349,18 @@ This project provided hands-on experience in:
 - Working with AWS EKS architecture and services  
 - Troubleshooting real-world infrastructure issues (CNI limits, pod scheduling, resource constraints)  
 
+---
+## 📸 Application Screenshots
 
+<p align="center">
+  <img src="./screenshots/home.png" width="45%" />
+  <img src="./screenshots/booking1.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/timings1.png" width="45%" />
+  <img src="./screenshots/confirmation.png" width="45%" />
+</p>
+---
 
 
