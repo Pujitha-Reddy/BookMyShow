@@ -347,19 +347,6 @@ Successfully implemented the following components:
 - Grafana monitoring setup  
 
 ---
-
-## 📘 Key Learnings
-
-This project provided hands-on experience in:
-
-- Designing and implementing CI/CD pipelines  
-- Understanding the Docker image lifecycle  
-- Performing code quality and security analysis  
-- Deploying applications using Kubernetes  
-- Working with AWS EKS architecture and services  
-- Troubleshooting real-world infrastructure issues (CNI limits, pod scheduling, resource constraints)  
-
----
 ## 📸 Application Screenshots
 
 <p align="center">
