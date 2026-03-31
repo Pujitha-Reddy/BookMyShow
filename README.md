@@ -68,9 +68,8 @@ The following endpoints were used during the project deployment:
 
 - Grafana was deployed using Helm and exposed via AWS LoadBalancer  
 - Used for visualizing Kubernetes cluster metrics  
----
 
-### 🔐 Grafana Access
+#### 🔐 Grafana Access
 - **Username:** `admin`  
 - **Password:** Retrieved from Kubernetes secret  
   
