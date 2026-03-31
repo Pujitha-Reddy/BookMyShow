@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: bookmyshow
-          image: <YOUR_ECR_IMAGE>
+          image: 583931059554.dkr.ecr.us-east-1.amazonaws.com/bookmyshow-app:latest
           ports:
             - containerPort: 80
