@@ -74,6 +74,18 @@ The following endpoints were used during the project deployment:
 - **Password:** Retrieved from Kubernetes secret  
   
 ---
+## 📸 Application Screenshots
+
+<p align="center">
+  <img src="./screenshots/home.png" width="45%" />
+  <img src="./screenshots/booking1.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/timings1.png" width="45%" />
+  <img src="./screenshots/confirmation.png" width="45%" />
+</p>
+---
 
 ## 🧱 Architecture Diagram
 
