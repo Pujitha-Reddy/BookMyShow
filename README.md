@@ -362,5 +362,40 @@ This project provided hands-on experience in:
   <img src="./screenshots/confirmation.png" width="45%" />
 </p>
 ---
+## 🛠️ DevOps Pipeline Proof (Screenshots)
 
+### 🔁 Jenkins Pipeline Execution
+![Jenkins](./screenshots/jenkins.png)
+
+- Shows successful CI/CD pipeline execution  
+- Includes build stages, logs, and deployment steps  
+
+---
+
+### 🔍 SonarQube Code Analysis
+![SonarQube](./screenshots/sonarqube.png)
+
+- Quality Gate: **Passed**  
+- No critical vulnerabilities or bugs  
+- Demonstrates code quality validation  
+
+---
+
+### 🐳 Docker Containers Running (EC2)
+![Docker](./screenshots/docker.png)
+
+- Shows running containers:
+  - BookMyShow application  
+  - SonarQube service  
+- Confirms application is containerized and deployed  
+
+---
+
+### ☸️ Kubernetes Deployment (EKS)
+![Kubernetes](./screenshots/kubernetes.png)
+
+- Shows pods, services, and LoadBalancer  
+- Confirms successful deployment to EKS cluster  
+
+---
 
