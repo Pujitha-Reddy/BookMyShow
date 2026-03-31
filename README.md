@@ -28,7 +28,41 @@ The goal of this project was to build a practical DevOps pipeline covering:
 - container registry
 - Kubernetes deployment
 - monitoring
+---
+## 🌐 Application & Tool Access URLs
 
+The following endpoints were used during the project deployment:
+
+---
+
+### 🖥️ Local Development
+- **Application (React App):**  
+  http://localhost:3000
+
+---
+
+### ☁️ AWS EC2 Deployment
+- **Application URL:**  
+  http://13.217.50.239:3000  
+
+- **Jenkins Dashboard (CI/CD):**  
+  http://13.217.50.239:8080  
+
+- **SonarQube Dashboard (Code Quality):**  
+  http://13.217.50.239:9000  
+
+---
+
+### ☸️ Kubernetes (EKS Deployment)
+- **Application via LoadBalancer:**  
+  http://a0a3cb7b702174a0caefab224ca76e5a-1965170611.us-east-1.elb.amazonaws.com  
+
+---
+
+### 📊 Monitoring (Grafana)
+- **Grafana Dashboard:**  
+  *(Exposed via LoadBalancer during deployment)*
+  
 ---
 
 ## 🧱 Architecture Diagram
