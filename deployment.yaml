@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookmyshow-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bookmyshow
+  template:
+    metadata:
+      labels:
+        app: bookmyshow
+    spec:
+      containers:
+        - name: bookmyshow
+          image: <YOUR_ECR_IMAGE>
+          ports:
+            - containerPort: 80
